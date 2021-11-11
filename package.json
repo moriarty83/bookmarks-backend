@@ -1,7 +1,6 @@
 {
   "name": "backend-bookmarks",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -18,5 +17,14 @@
     "mongoose": "^6.0.12",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriarty83/bookmarks-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moriarty83/bookmarks-backend/issues"
+  },
+  "homepage": "https://github.com/moriarty83/bookmarks-backend#readme",
+  "description": ""
 }
