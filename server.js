@@ -91,6 +91,18 @@ app.delete("/bookmarks/:id", async (req, res) => {
     }
   });
 
+// Show route 
+
+app.get("/bookmarks/:id", async (req, res) => {
+  try {
+      res.json(
+          await Bookmarks.findById(req.params.id)
+      )
+  } catch (error){
+      res.status(400).json({error})
+  }
+})
+
 ///////////////////////////////
 // LISTENER
 ////////////////////////////////
